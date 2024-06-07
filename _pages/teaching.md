@@ -2,6 +2,9 @@
 permalink: /teaching/
 title: "Teaching"
 ---
+
+Yet to update the teaching page. 
+
 <!--
 Research plays a central role in my teaching as students improve their
 analytical skills and master the tools of data analysis through hands-on
