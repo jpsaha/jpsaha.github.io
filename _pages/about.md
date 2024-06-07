@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I am an Assistant Professor at the Department of Mathematics, IISER Bhopal. 
+
 <!--
 
 Welcome! I am a data scientist applying machine learning tools and causal
