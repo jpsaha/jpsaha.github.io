@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!--
 
 Welcome! I am a data scientist applying machine learning tools and causal
 inference techniques to remote sensing data. I am an affiliated
@@ -26,3 +27,5 @@ using a broad variety of methods such as latent variable models, geospatial
 analysis, and big data. I have [taught](teaching) quantitative methodology and
 international relations, and am a certified instructor with
 [The Carpentries](https://carpentries.org).
+
+-->
