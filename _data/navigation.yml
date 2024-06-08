@@ -17,3 +17,8 @@ main:
     
   - title: "MOPSS"
     url: /MOPSS/
+    icon_class: fas fa-chalkboard
+    
+  - title: "MOPSS2"
+    url: /MOPSS2/
+    
