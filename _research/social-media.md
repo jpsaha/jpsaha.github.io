@@ -1,5 +1,5 @@
 ---
-title: "Social media data"
+title: "Binomial"
 layout: single-portfolio
 excerpt: "<img src='/images/research/ternary.png' alt=''>"
 collection: research
