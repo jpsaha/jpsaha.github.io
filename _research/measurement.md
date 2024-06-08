@@ -1,5 +1,5 @@
 ---
-title: "Measurement"
+title: "Research work 3"
 layout: single-portfolio
 excerpt: "<img src='/images/research/Agreement-Strength.png' alt=''>"
 collection: research
@@ -8,6 +8,8 @@ header:
   og_image: "research/Agreement-Strength.png"
 ---
 
+Let's talk about research work on topic 2.
+<!--
 In this set of projects, I use advanced quanitative methods to tackle the problem of more accurately measuring concepts of interest in international relations. One uses Bayesian latent variable models to directly assess the strength of peace agreements in civil conflict rather than having to use agreement duration as a proxy for strength. Another harnesses advances in big data and develops new measures of economic interdependence and methods for detecting disruptions of regular economic exchange between states from a product-level trade dataset with over two billion observations.
 
 ## Article
@@ -35,3 +37,4 @@ Bailee Donahue, Rob Williams, and Mark Crescenzi. "Unsettled Borders in a Market
 David B. Carter, Bailee Donahue, and Rob Williams. "Border Walls, Cooperation, and Illicit Trade." To be presented at Annual Conference of the International Political Economy Society, Columbus, OH, November, 2020.
 
 > In the last twenty years, the number of fortified borders around the world has risen precipitously. A growing body of research shows that cross-border economic inequality drives wealthier states to construct border walls. This surge in walls is further argued to be a reaction to the unwanted "externalities"" of economic openness and globalization, namely, illicit trade and smuggling. While recent studies analyze the effect of walls on legal trade, no studies of which we are aware explore how walls might affect illicit trade. This is a notable omission for two key reasons. First, the most common explanation for wall construction puts combating illicit trade front and center. Second, recent work that finds walls significantly reduce legal trade suggest that this finding derives from border fortifications diverting illegal trade to ports of entry, which leads to more inspection, security, and transaction costs. We begin to fill this gap here by developing new measures of illicit trade flows and assessing their connections to border wall construction and legal trade flows.
+-->
