@@ -8,6 +8,11 @@ header:
   og_image: "research/ternary.png"
 ---
 
+Let's talk about research work on topic 4.
+\( (a+b)^2 = a^2 + 2ab + b^2 \)
+
+<!--
+
 In these projects I leverage social media data to study the early stages of
 radicalization and participation in extremist movements. In one, I use geocoded
 videos uploads to explore the relationship between American military fatalities
@@ -23,3 +28,5 @@ Richard McAlexander, Rob Williams, and Michael Rubin. "They’re Still There, He
 > What explains right-wing radicalization in the US? Research shows that demographic changes and economic decline both drive support for the far-right. We contribute to this research agenda by 1) studying the elusive early stages in the process of radicalization and 2) highlighting an additional factor that contributes to right-wing radicalization in the US: the impact of foreign wars on society at home. We argue that the communities that bear the greatest costs of foreign wars are most prone to high rates of right-wing radicalization. To support this claim, we present robust correlations between participation in the far-right social media website Parler and fatalities among residents who served in the US wars in Iraq and Afghanistan. This correlation holds at both the county and census tract level, and persists after controlling for the level of military service in an area. The costs of the US's foreign wars have important effects on domestic US politics.
 
 [Article](https://doi.org/10.1017/S0003055423000904){: .btn--research} [Preprint](/files/pdf/research/They're Still Here.pdf){: .btn--research} [Supplemental Information](/files/pdf/research/They're Still Here SI.pdf){: .btn--research} [Replication Archive](https://doi.org/10.7910/DVN/4GLPII){: .btn--research}
+
+-->
