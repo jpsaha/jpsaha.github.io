@@ -3,6 +3,36 @@ main:
   - title: "MOPSS"
     url: /MOPSS/
 
+  - title: "MOPSS"
+    url: /matholympiad/
+
+  - title: "MOPSS"
+    url: /trainingprogram/
+
+  - title: "MOPSS"
+    url: /eligibility/
+
+  - title: "MOPSS"
+    url: /algebra/
+
+  - title: "MOPSS"
+    url: /combinatorics/
+
+  - title: "MOPSS"
+    url: /geometry/
+
+  - title: "MOPSS"
+    url: /numbertheory/
+
+  - title: "MOPSS"
+    url: /resources/
+
+  - title: "MOPSS"
+    url: /slides/
+
+  - title: "MOPSS"
+    url: /schedule/
+
   - title: "Publications"
     url: /publications/
     
