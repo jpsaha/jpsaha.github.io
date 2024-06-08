@@ -11,6 +11,8 @@ header:
 Let's talk about research work on topic 4.
 \( (a+b)^2 = a^2 + 2ab + b^2 \)
 
+$(a+b)^2 = a^2 + 2ab + b^2$
+
 <!--
 
 In these projects I leverage social media data to study the early stages of
