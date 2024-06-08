@@ -1,5 +1,7 @@
 # main links links
-main:- title: "MOPSS"
+main:
+
+- title: "MOPSS"
   url: /MOPSS/
 
 - title: "Math Olympiad"
