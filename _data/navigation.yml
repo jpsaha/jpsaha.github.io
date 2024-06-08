@@ -1,14 +1,20 @@
 # main links links
 main:
+  - title: "MOPSS"
+    url: /MOPSS/
+
   - title: "Publications"
     url: /publications/
     
   - title: "Research"
     url: /research/
+    
   - title: "Teaching"
     url: /teaching/
+    
   - title: "Software"
     url: /software/
+    
   - title: "Posts"
     url: /posts/
 
