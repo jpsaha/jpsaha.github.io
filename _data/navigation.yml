@@ -1,5 +1,37 @@
 # main links links
-main:
+main:- title: "MOPSS"
+  url: /MOPSS/
+
+- title: "Math Olympiad"
+  url: /matholympiad/
+
+- title: "Training Program"
+  url: /trainingprogram/
+
+- title: "Eligibility"
+  url: /eligibility/
+
+- title: "Algebra"
+  url: /algebra/
+
+- title: "Combinatorics"
+  url: /combinatorics/
+
+- title: "Geometry"
+  url: /geometry/
+
+- title: "Number Theory"
+  url: /numbertheory/
+
+- title: "Resources"
+  url: /resources/
+
+- title: "Slides"
+  url: /slides/
+
+- title: "Schedule"
+  url: /schedule/
+  
   - title: "Publications"
     url: /publications/
     
@@ -14,11 +46,3 @@ main:
 
   - title: "Posts"
     url: /posts/
-    
-  - title: "MOPSS"
-    url: /MOPSS/
-    icon_class: fas fa-chalkboard
-    
-  - title: "MOPSS2"
-    url: /MOPSS2/
-    
