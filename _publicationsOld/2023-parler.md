@@ -1,11 +1,9 @@
 ---
-title: "They're Still There, He's All Gone: American Fatalities in Foreign Wars and Right-Wing Radicalization at Home"
+title: "Purity for families of Galois representations"
 collection: publications
-permalink: /publication/2023-parler
-date: 2023-10-01
-venue: 'American Political Science Review'
-paperurl: "/files/pdf/research/They're Still Here.pdf"
-link: 'https://doi.org/10.1017/S0003055423000904'
-code: 'https://doi.org/10.7910/DVN/4GLPII'
-citation: "McAlexander, Richard J., Michael A. Rubin, and Rob Williams. FirstView. &quot;They're Still There, He's All Gone: American Fatalities in Foreign Wars and Right-Wing Radicalization at Home.&quot; <i>American Political Science Review</i>. doi:10.1017/S0003055423000904"
+permalink: /publication/2017-purity
+date: 2024-06-08
+venue: 'Ann. Inst. Fourier (Grenoble)'  # paperurl: "/files/pdf/research/They're Still Here.pdf"
+link: 'https://doi.org/10.5802/aif.3099' # code: 'https://doi.org/10.7910/DVN/4GLPII'
+citation: " <i>Ann. Inst. Fourier (Grenoble)</i>. doi:10.5802/aif.3099"
 ---
