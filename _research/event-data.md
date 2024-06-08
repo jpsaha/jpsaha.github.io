@@ -1,5 +1,5 @@
 ---
-title: "Conflict event data"
+title: "Research work 1"
 layout: single-portfolio
 excerpt: "<img src='/images/research/map.png' alt=''>"
 collection: research
@@ -8,6 +8,9 @@ header:
   og_image: "research/map.png"
 ---
 
+Let's talk about research work on topic 1. 
+
+<!--
 In this set of projects, I leverage geospatial event data to explore the microlevel dynamics of political violence. What role can violence at the local level serve in advancing broader political ends? What explains patterns of action and reaction between actors engaged in different types of political violence? How do the differing roles the UN peacekeepers play affect the likelihood that rebel fighters will target them?
 
 ## Article
@@ -31,3 +34,5 @@ Patrick Hunnicutt, William G. Nomikos, and Rob Williams. "Non-Combatants or Coun
 > Despite the wealth of academic research on United Nations (UN) peacekeeping operations, we know remarkably little about the causes of violence against peacekeepers. The dramatic increase in peacekeeper casualties over the past decade make this omission particularly problematic. This article demonstrates that violence against peacekeepers stems from strategic motivations. Peacekeepers in multidimensional PKOs serve as substitute providers of governance and security, working to bolster perceived state capacity and legitimacy in areas where the government cannot send its own forces. Insurgents target peacekeepers in expectation of a PKO unit’s capacity to win over the support of local civilians. We argue that insurgents rely on three primary heuristics to predict the downstream efficacy of peacekeeping forces: personnel composition, peacekeeper nationality, and local levels of insurgent control. We test our theory using an original dataset of geocoded UN multidimensional peacekeeping deployments peacekeeping deployments. Using primary documents sourced directly from the UN covering 10 multidimensional peacekeeping operations from 1999-2018, we present comprehensive time-series data on UN peacekeeper deployment location. We ﬁnd preliminary evidence that peacekeepers are targeted because of their cultural similarity with noncombatants and, in some cases, because they patrol areas where insurgents have political control.
 
 [Working Paper](https://osf.io/ta96y/){: .btn--research}
+
+-->
