@@ -3,34 +3,34 @@ main:
   - title: "MOPSS"
     url: /MOPSS/
 
-  - title: "MOPSS"
+  - title: "Math Olympiad"
     url: /matholympiad/
 
-  - title: "MOPSS"
+  - title: "Training Program"
     url: /trainingprogram/
 
-  - title: "MOPSS"
+  - title: "Eligibility"
     url: /eligibility/
 
-  - title: "MOPSS"
+  - title: "Algebra"
     url: /algebra/
 
-  - title: "MOPSS"
+  - title: "Combinatorics"
     url: /combinatorics/
 
-  - title: "MOPSS"
+  - title: "Geometry"
     url: /geometry/
 
-  - title: "MOPSS"
+  - title: "Number Theory"
     url: /numbertheory/
 
-  - title: "MOPSS"
+  - title: "Resources"
     url: /resources/
 
-  - title: "MOPSS"
+  - title: "slides"
     url: /slides/
 
-  - title: "MOPSS"
+  - title: "Schedule"
     url: /schedule/
 
   - title: "Publications"
