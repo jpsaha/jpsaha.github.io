@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Algebra"
-permalink: /Algebra/
+permalink: /algebra/
 author_profile: true
 ---
 
