@@ -5,6 +5,10 @@ header:
   og_image: "teaching/pdp.png"
 ---
 
+
+Please visit the page 
+[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/matholympiad/).
+
 Yet to update the teaching-materials page. 
 
 <!--

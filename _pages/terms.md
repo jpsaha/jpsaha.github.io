@@ -4,6 +4,9 @@ title: "Terms and Privacy Policy"
 modified: 2016-06-06
 ---
 
+Please visit the page 
+[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/matholympiad/).
+
 {% include base_path %}
 {% include toc %}
 
