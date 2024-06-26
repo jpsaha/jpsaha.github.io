@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Please visit the page 
-[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/matholympiad/).
+[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/MOPSS/).
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
