@@ -9,7 +9,7 @@ header:
 
 
 Please visit the page 
-[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/MOPSS/).
+[https://jpsaha.github.io/MOTP/MOPSS/](https://jpsaha.github.io/MOTP/MOPSS/).
 
 Yet to update the research page. 
 

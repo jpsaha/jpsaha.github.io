@@ -12,7 +12,7 @@ I am an Assistant Professor at the Department of Mathematics, IISER Bhopal.
 
 
 Please visit the page 
-[https://jpsaha.github.io/MOTP/matholympiad/](https://jpsaha.github.io/MOTP/MOPSS/).
+[https://jpsaha.github.io/MOTP/MOPSS/](https://jpsaha.github.io/MOTP/MOPSS/).
 
 <!--
 
