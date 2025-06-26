@@ -8,7 +8,7 @@
   "
 >
   <p>
-    {{- '©' }}
+    <!-- {{- '©' }} -->
     <time>{{ 'now' | date: '%Y' }}</time>
 
     {% if site.social.links %}
@@ -17,7 +17,7 @@
       <em class="fst-normal">{{ site.social.name }}</em>.
     {% endif %}
 
-    {% if site.data.locales[include.lang].copyright.brief %}
+    <!-- {% if site.data.locales[include.lang].copyright.brief %}
       <span
         data-bs-toggle="tooltip"
         data-bs-placement="top"
@@ -25,7 +25,7 @@
       >
         {{- site.data.locales[include.lang].copyright.brief -}}
       </span>
-    {% endif %}
+    {% endif %} -->
   </p>
 
   <p>

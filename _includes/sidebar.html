@@ -53,9 +53,21 @@
 
     {% for entry in site.data.contact %}
       {% case entry.type %}
-        {% when 'github', 'twitter' %}
+        {% when 'github' %}
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        {% when 'linkedin' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.com/in/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        {% when 'twitter' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.com/{{ site[entry.type].username }}
+          {%- endcapture -%}
+        {% when 'mathstodon' %}
+          {%- capture url -%}
+            https://{{ entry.type }}.xyz/@{{ site[entry.type].username }}
           {%- endcapture -%}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
@@ -79,7 +91,7 @@
             {% assign link_types = 'noopener noreferrer' %}
           {% endunless %}
 
-          {% if entry.type == 'mastodon' %}
+          {% if entry.type == 'mathstodon' %}
             {% assign link_types = link_types | append: ' me' | strip %}
           {% endif %}
 

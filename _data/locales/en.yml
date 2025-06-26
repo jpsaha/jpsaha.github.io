@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Categories
+  categories: Notes Handouts # category Categories
   tags: Tags
   archives: Archives
   about: About
@@ -52,7 +52,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: By
+  written_by: # By
   posted: Posted
   updated: Updated
   words: words
