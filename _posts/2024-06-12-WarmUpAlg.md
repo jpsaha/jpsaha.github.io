@@ -12,14 +12,14 @@ author: #autone
 There are infinitely many primes.
 " %}
 
-See [Euclid's Theorem](#euclid-s-theorem-posts-warmup).
+See [Euclid's Theorem](#euclid-s-theorem-posts-warmupalg).
 
 
 {% include theorem.html title="New Theorem" content="
 There are infinitely many primes.
 " %}
 
-See [New Theorem](#new-theorem-posts-warmup).
+See [New Theorem](#new-theorem-posts-warmupalg).
 
 
 
@@ -27,7 +27,7 @@ See [New Theorem](#new-theorem-posts-warmup).
 Show that the number of primes is infinite.
 " %}
 
-See [Problem 1](#problem-posts-warmup).
+See [Problem 1](#problem-posts-warmupalg).
 
 A definition:
 <blockquote style="border-left: 3px solid #f79eb2; color:#f79eb2; margin-bottom:2px">
