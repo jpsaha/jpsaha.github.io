@@ -1,0 +1,6 @@
+{% assign myid = include.id | default: include.title | slugify | default: "corollary-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+<div class="corollary-block" id="{{ myid }}">
+  <span class="block-title"></span>
+  <a class="anchor-link" href="#{{ myid }}" title="Link to this corollary">🔗</a>
+  {{ include.content | markdownify }}
+</div>
