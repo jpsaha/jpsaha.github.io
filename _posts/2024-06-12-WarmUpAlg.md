@@ -7,7 +7,27 @@ math: true
 author: #autone
 ---
 
-to put some text to see what works and what possibly may not work well.
+
+{% include theorem.html title="Euclid's Theorem" content="
+There are infinitely many primes.
+" %}
+
+See [Euclid's Theorem](#euclid-s-theorem-posts-warmup).
+
+
+{% include theorem.html title="New Theorem" content="
+There are infinitely many primes.
+" %}
+
+See [New Theorem](#new-theorem-posts-warmup).
+
+
+
+{% include problem.html content="
+Show that the number of primes is infinite.
+" %}
+
+See [Problem 1](#problem-posts-warmup).
 
 A definition:
 <blockquote style="border-left: 3px solid #f79eb2; color:#f79eb2; margin-bottom:2px">
