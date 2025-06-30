@@ -1,0 +1,6 @@
+{% assign myid = include.id | default: include.title | slugify | default: "exercise-" | append: page.url | slugify | append: "-" | append: forloop.index | slugify %}
+<div class="exercise-block" id="{{ myid }}">
+  <span class="block-title"></span>
+  <a class="anchor-link" href="#{{ myid }}" title="Link to this exercise">🔗</a>
+  {{ include.content | markdownify }}
+</div>

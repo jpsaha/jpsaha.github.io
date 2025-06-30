@@ -8,6 +8,62 @@ author: #autone
 ---
 
 
+{% include definition.html title="Prime" content="
+  A positive integer $p > 1$ is called <em>prime</em> if its only positive divisors are $1$ and $p$.
+" %}
+
+{% include example.html title="" content="
+  $7$ is a prime number because its only divisors are $1$ and $7$.
+" %}
+
+{% include lemma.html title="" content="
+  Every integer greater than $1$ is divisible by a prime.
+" %}
+
+{% include claim.html title="" content="
+  To claim that every integer greater than $1$ is divisible by a prime.
+" %}
+
+{% include proposition.html title="" content="
+  If $p$ is a prime and $p$ divides $ab$, then $p$ divides $a$ or $p$ divides $b$.
+" %}
+
+{% include theorem.html title="Euclid" content="
+  There are infinitely many primes.
+" %}
+
+{% include hint.html title="" content="
+  Try considering the product of all known primes plus one.
+" %}
+
+{% include walkthrough.html title="" content="
+  Let's analyze the steps of the proof in detail.
+" %}
+
+{% include proof.html title="" content="
+  Suppose there are only finitely many primes $p_1, p_2, \dots, p_n$. Consider $Q = p_1p_2\dots p_n + 1$...
+" %}
+
+{% include corollary.html title="" content="
+  A nice corollary to have.
+" %}
+
+{% include remark.html title="" content="
+  This theorem was first proved by Euclid around 300 BC.
+" %}
+
+{% include problem.html title="" content="
+  Prove that there are infinitely many prime numbers.
+" %}
+
+{% include solution.html title="" content="
+  See the proof above for a constructive argument.
+" %}
+
+{% include exercise.html title="" content="
+  Here is an exercise.
+" %}
+
 {% include theorem.html title="Euclid's Theorem" content="
 There are infinitely many primes.
 " %}
