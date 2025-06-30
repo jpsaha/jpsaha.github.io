@@ -11,168 +11,187 @@
 /* append your custom style below */
 
 .math-blocks {
-  counter-reset: definition example lemma proposition theorem corollary hint walkthrough proof remark problem solution;
+  counter-reset: definition example lemma claim proposition theorem hint walkthrough proof remark problem solution exercise;
 }
 
-/* Elegant color palette inspired by pastel, muted, and modern tones */
+/* Distinct, elegant colors for each block type */
 
 .definition-block {
   counter-increment: definition;
-  border-left: 5px solid #5ab9ea;
-  background: #eaf6fb;
-  color: #234764;
+  border-left: 5px solid #0072b5;
+  background: #e3f1fa;
+  color: #1a3556;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(90,185,234,0.09);
+  box-shadow: 0 3px 12px rgba(0,114,181,0.07);
   position: relative;
 }
 .definition-block .block-title::before {
   content: "Definition " counter(definition) ". ";
-  color: #1b6ca8;
+  color: #0072b5;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .example-block {
   counter-increment: example;
-  border-left: 5px solid #a3d2ca;
-  background: #f4fbf9;
-  color: #35605a;
+  border-left: 5px solid #43aa8b;
+  background: #e6f7f1;
+  color: #265a4b;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(163,210,202,0.09);
+  box-shadow: 0 3px 12px rgba(67,170,139,0.07);
   position: relative;
 }
 .example-block .block-title::before {
   content: "Example " counter(example) ". ";
-  color: #39967b;
+  color: #43aa8b;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .lemma-block {
   counter-increment: lemma;
-  border-left: 5px solid #b088f9;
-  background: #f6f2fd;
-  color: #4b3869;
+  border-left: 5px solid #845ec2;
+  background: #f1edfa;
+  color: #392b5f;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(176,136,249,0.09);
+  box-shadow: 0 3px 12px rgba(132,94,194,0.07);
   position: relative;
 }
 .lemma-block .block-title::before {
   content: "Lemma " counter(lemma) ". ";
-  color: #7c5fc2;
+  color: #845ec2;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.claim-block {
+  counter-increment: claim;
+  border-left: 5px solid #3a86ff;
+  background: #eaf1ff;
+  color: #20306a;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(58,134,255,0.07);
+  position: relative;
+}
+.claim-block .block-title::before {
+  content: "Claim " counter(claim) ". ";
+  color: #3a86ff;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .proposition-block {
   counter-increment: proposition;
-  border-left: 5px solid #ffd6ba;
-  background: #fef9f4;
-  color: #6e4b1f;
+  border-left: 5px solid #00897b;
+  background: #e0f2f1;
+  color: #1a4844;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(255,214,186,0.09);
+  box-shadow: 0 3px 12px rgba(0,137,123,0.07);
   position: relative;
 }
 .proposition-block .block-title::before {
   content: "Proposition " counter(proposition) ". ";
-  color: #d9a066;
+  color: #00897b;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .theorem-block {
   counter-increment: theorem;
-  border-left: 5px solid #8860d0;
-  background: #f7f7fa;
-  color: #3d2c8d;
+  border-left: 5px solid #3949ab;
+  background: #e8eaf6;
+  color: #232963;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(136,96,208,0.09);
+  box-shadow: 0 3px 12px rgba(57,73,171,0.07);
   position: relative;
 }
 .theorem-block .block-title::before {
   content: "Theorem " counter(theorem) ". ";
-  color: #5c469c;
+  color: #3949ab;
   font-weight: bold;
   font-size: 1.12em;
 }
 
-.corollary-block {
-  counter-increment: corollary;
-  border-left: 5px solid #f7b267;
-  background: #fffaf4;
-  color: #8d6a1e;
-  padding: 1em 1.5em;
-  margin: 1.5em 0;
-  border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(247,178,103,0.09);
-  position: relative;
-}
-.corollary-block .block-title::before {
-  content: "Corollary " counter(corollary) ". ";
-  color: #e1a95f;
-  font-weight: bold;
-  font-size: 1.12em;
-}
 
 .hint-block {
   counter-increment: hint;
-  border-left: 5px solid #b0efeb;
-  background: #f9fefd;
-  color: #2a5043;
+  border-left: 5px solid #B84592;
+  background: #fbe7f3;
+  color: #6d2a54;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(176,239,235,0.09);
+  box-shadow: 0 2px 10px rgba(184,69,146,0.06);
   position: relative;
 }
 .hint-block .block-title::before {
   content: "Hint " counter(hint) ". ";
-  color: #55b8a3;
+  color: #B84592;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .walkthrough-block {
   counter-increment: walkthrough;
-  border-left: 5px solid #f8c291;
-  background: #fff9f5;
-  color: #8e6e53;
+  border-left: 5px solid #118ab2;
+  background: #e6f6fa;
+  color: #1b4d5c;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(248,194,145,0.08);
+  box-shadow: 0 3px 12px rgba(17,138,178,0.07);
   position: relative;
 }
 .walkthrough-block .block-title::before {
   content: "Walkthrough " counter(walkthrough) ". ";
-  color: #e77f67;
+  color: #118ab2;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .proof-block {
   counter-increment: proof;
+  border-left: 5px solid #2e7d32;
+  background: #e8f5e9;
+  color: #174825;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(46,125,50,0.06);
+  position: relative;
+}
+.proof-block .block-title::before {
+  content: "Proof " counter(proof) ". ";
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.corollary-block {
+  counter-increment: corollary;
   border-left: 5px solid #7897ab;
   background: #f6fafd;
   color: #25405b;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(120,151,171,0.09);
+  box-shadow: 0 3px 12px rgba(120,151,171,0.06);
   position: relative;
 }
-.proof-block .block-title::before {
-  content: "Proof " counter(proof) ". ";
+.corollary-block .block-title::before {
+  content: "Corollary " counter(corollary) ". ";
   color: #456376;
   font-weight: bold;
   font-size: 1.12em;
@@ -180,104 +199,88 @@
 
 .remark-block {
   counter-increment: remark;
-  border-left: 5px solid #ffe066;
-  background: #fffefa;
-  color: #857a15;
+  border-left: 5px solid #f94144;
+  background: #fff0f0;
+  color: #7c2323;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(255,224,102,0.09);
+  box-shadow: 0 3px 12px rgba(249,65,68,0.07);
   position: relative;
 }
 .remark-block .block-title::before {
   content: "Remark " counter(remark) ". ";
-  color: #bfa900;
+  color: #f94144;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .problem-block {
   counter-increment: problem;
-  border-left: 5px solid #ffb4a2;
-  background: #fff9f7;
-  color: #b23c15;
+  border-left: 5px solid #763857;
+  background: #f5ebf1;
+  color: #3f2131;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(255,180,162,0.09);
+  box-shadow: 0 3px 12px rgba(118,56,87,0.07);
   position: relative;
 }
 .problem-block .block-title::before {
   content: "Problem " counter(problem) ". ";
-  color: #e76f51;
+  color: #763857;
   font-weight: bold;
   font-size: 1.12em;
 }
 
 .solution-block {
   counter-increment: solution;
-  border-left: 5px solid #a3c9a8;
-  background: #f7fcf9;
-  color: #2e5635;
+  border-left: 5px solid #2e7d32;
+  background: #e8f5e9;
+  color: #174825;
   padding: 1em 1.5em;
   margin: 1.5em 0;
   border-radius: 0.7em;
-  box-shadow: 0 3px 12px rgba(163,201,168,0.09);
+  box-shadow: 0 3px 12px rgba(46,125,50,0.07);
   position: relative;
 }
 .solution-block .block-title::before {
   content: "Solution " counter(solution) ". ";
-  color: #5d9466;
+  color: #2e7d32;
   font-weight: bold;
   font-size: 1.12em;
 }
 
-/* Anchor Link Icon for all math blocks */
-.definition-block .anchor-link,
-.example-block .anchor-link,
-.lemma-block .anchor-link,
-.proposition-block .anchor-link,
-.theorem-block .anchor-link,
-.corollary-block .anchor-link,
-.hint-block .anchor-link,
-.walkthrough-block .anchor-link,
-.proof-block .anchor-link,
-.remark-block .anchor-link,
-.problem-block .anchor-link,
-.solution-block .anchor-link {
+.exercise-block {
+  counter-increment: exercise;
+  border-left: 5px solid #22223b;
+  background: #f1f1f3;
+  color: #22223b;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(34,34,59,0.07);
+  position: relative;
+}
+.exercise-block .block-title::before {
+  content: "Exercise " counter(exercise) ". ";
+  color: #22223b;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+/* Anchor icon style */
+.anchor-link {
   float: right;
-  font-size: 0.95em;
-  color: #bbb;
   text-decoration: none;
-  margin-left: 0.5em;
-  margin-top: -0.12em;
+  font-size: 1em;
   opacity: 0.5;
-  transition: opacity 0.2s, color 0.2s;
+  margin-left: 0.5em;
+  transition: opacity 0.2s;
+  color: inherit;
 }
-
-.definition-block:hover .anchor-link,
-.example-block:hover .anchor-link,
-.lemma-block:hover .anchor-link,
-.proposition-block:hover .anchor-link,
-.theorem-block:hover .anchor-link,
-.corollary-block:hover .anchor-link,
-.hint-block:hover .anchor-link,
-.walkthrough-block:hover .anchor-link,
-.proof-block:hover .anchor-link,
-.remark-block:hover .anchor-link,
-.problem-block:hover .anchor-link,
-.solution-block:hover .anchor-link {
+.anchor-link:hover,
+.anchor-link:focus {
   opacity: 1;
-  color: #5ab9ea;
+  color: #000;
 }
-
-.theorem-block:hover .anchor-link { color: #8860d0; }
-.lemma-block:hover .anchor-link { color: #b088f9; }
-.proposition-block:hover .anchor-link { color: #ffd6ba; }
-.corollary-block:hover .anchor-link { color: #f7b267; }
-.hint-block:hover .anchor-link { color: #b0efeb; }
-.walkthrough-block:hover .anchor-link { color: #f8c291; }
-.proof-block:hover .anchor-link { color: #7897ab; }
-.remark-block:hover .anchor-link { color: #ffe066; }
-.problem-block:hover .anchor-link { color: #ffb4a2; }
-.solution-block:hover .anchor-link { color: #a3c9a8; }
