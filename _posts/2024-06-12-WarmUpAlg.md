@@ -5,4 +5,6 @@ categories: [Notes Handouts, Algebra]
 tags: [algebra, ioqm, rmo, inmo, matholympiad, notes, handouts, lecturenotes]
 math: true
 author: #autone
+jpdf: WarmUp
+jsujet: Algebra
 ---

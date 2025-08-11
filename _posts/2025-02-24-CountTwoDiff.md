@@ -5,5 +5,7 @@ categories: [Notes Handouts, Combinatorics]
 tags: [combinatorics, ioqm, rmo, inmo, matholympiad, notes, handouts, lecturenotes]
 math: true
 author: 
+jpdf: CountTwoDiff
+jsujet: Combinatorics
 ---
 
