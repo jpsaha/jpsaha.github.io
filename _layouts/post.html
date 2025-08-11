@@ -121,9 +121,10 @@ script_includes:
       <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
     </dialog>
   {% endif %}
-
+  {% if page.jpdf %}
   <iframe src="{{ '.pdf' | prepend: page.jpdf | prepend: '/' | prepend: page.jsujet | prepend: '/assets/pdf/' }}" width="100%" height="700" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
-
+  {% endif %}
+  
   <div class="content">
     {{ content }}
   </div>
