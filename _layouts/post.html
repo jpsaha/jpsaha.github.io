@@ -37,6 +37,7 @@ script_includes:
       {% endif %}
 
       {% if post.jpdf and post.jsujet %}
+        <span>
         <a
           href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' }}"
           target="_blank"
@@ -44,6 +45,7 @@ script_includes:
           class="float-right"
           ><i class="fa-solid fa-file-pdf"></i>
         </a>
+        </span>
       {% endif %}
 
       {% if page.image %}
