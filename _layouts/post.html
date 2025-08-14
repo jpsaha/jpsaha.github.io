@@ -36,9 +36,9 @@ script_includes:
         </span>
       {% endif %}
 
-      {% if post.jpdf %}
+      {% if page.jpdf %}
         <a
-          href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' }}"
+          href="{{ '.pdf' | prepend: page.jpdf | prepend: '/' |prepend: page.jsujet | prepend: 'assets/pdf/' }}"
           target="_blank"
           rel="noopener noreferrer"
           class="float-right"
