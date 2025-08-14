@@ -36,7 +36,7 @@ script_includes:
         </span>
       {% endif %}
 
-      {% if post.jpdf and post.jsujet %}
+      {% if post.jpdf %}
         <span>
         <a
           href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' }}"
