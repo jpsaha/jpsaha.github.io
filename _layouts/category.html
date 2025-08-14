@@ -16,6 +16,7 @@ layout: page
     {% for post in page.posts %}
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="dash flex-grow-1"></span>
         {% if post.jpdf and post.jsujet %}
           <a
             href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' | relative_url }}"
@@ -25,8 +26,6 @@ layout: page
             ><i class="fa-solid fa-file-pdf fa-2x"></i>
           </a>
         {% endif %}
-        <span class="dash flex-grow-1"></span>
-        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
       </li>
     {% endfor %}
   </ul>
