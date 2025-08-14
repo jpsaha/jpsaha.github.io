@@ -36,6 +36,16 @@ script_includes:
         </span>
       {% endif %}
 
+      {% if post.jpdf and post.jsujet %}
+        <a
+          href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+          ><i class="fa-solid fa-file-pdf"></i
+        ></a>
+      {% endif %}
+
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
