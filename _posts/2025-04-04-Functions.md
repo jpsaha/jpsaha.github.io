@@ -1,0 +1,11 @@
+---
+title: Functions
+date: 2025-04-04 08:57:00 +0530
+categories: [Notes Handouts, Algebra]
+tags: [algebra, ioqm, rmo, inmo, matholympiad, notes, handouts, lecturenotes]
+math: true
+author: 
+jpdf: Functions
+jsujet: Algebra
+---
+
