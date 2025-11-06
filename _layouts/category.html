@@ -23,7 +23,7 @@ layout: page
         {% for item in site.data.past %}
           {% if item[tst].yr == post.yr %}
           
-{% assign contest = include.contest %}
+{% assign contest = tst %}
 <table class="table table-bordered text-center align-middle">
     <thead>
     <tr>
