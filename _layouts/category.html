@@ -17,6 +17,16 @@ layout: page
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <span class="dash flex-grow-1"></span>
+      
+      {% if post.ctst %}
+        {% assign tst = post.ctst %}
+        {% for item in site.data.past %}
+          {% if item[tst].yr == post.yr %}
+            {% include lqd/contest-cell-sp.liquid contest=tst %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
         {% if post.jpdf and post.jsujet %}
           <a
             href="{{ '.pdf' | prepend: post.jpdf | prepend: '/' |prepend: post.jsujet | prepend: 'assets/pdf/' | relative_url }}"
